@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Failed suite [Failed suite [Failed suite [demo_suite1]]]]">
+  <listeners>
+    <listener class-name="com.dic.demo.MyListenner"/>
+  </listeners>
+  <test thread-count="5" verbose="10" name="round1(failed)(failed)(failed)(failed)">
+    <classes>
+      <class name="com.dic.autom.TestNGDemo1">
+        <methods>
+          <include name="test5"/>
+        </methods>
+      </class> <!-- com.dic.autom.TestNGDemo1 -->
+    </classes>
+  </test> <!-- round1(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [demo_suite1]]]] -->

@@ -1,0 +1,8 @@
+21:07:54.852 [main] INFO  com.dic.upload.test.LoginTest - ls_username定位已找到元素
+21:07:54.926 [main] INFO  com.dic.upload.test.LoginTest - ls_password定位已找到元素
+21:07:55.002 [main] INFO  com.dic.upload.test.LoginTest - //div[@class='fastlg cl']/div[2]/p[2]/button/em定位已找到元素
+21:07:55.297 [main] INFO  com.dic.upload.test.LoginTest - //p/a[text()='退出']定位已找到元素
+21:07:56.385 [main] INFO  com.dic.upload.test.LoginTest - ls_username定位已找到元素
+21:07:56.453 [main] INFO  com.dic.upload.test.LoginTest - ls_password定位已找到元素
+21:07:56.517 [main] INFO  com.dic.upload.test.LoginTest - //div[@class='fastlg cl']/div[2]/p[2]/button/em定位已找到元素
+21:07:56.772 [main] INFO  com.dic.upload.test.LoginTest - //p/a[text()='退出']定位已找到元素

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[测试方法：loginTest1执行通过了]]>
+    </line>
+    <line>
+      <![CDATA[测试方法：loginTest1执行通过了]]>
+    </line>
+  </reporter-output>
+  <suite name="demo_suite1" duration-ms="4500" started-at="2018-09-01T13:07:52Z" finished-at="2018-09-01T13:07:56Z">
+    <groups>
+    </groups>
+    <test name="round1" duration-ms="4500" started-at="2018-09-01T13:07:52Z" finished-at="2018-09-01T13:07:56Z">
+      <class name="com.dic.upload.test.LoginTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.dic.upload.test.LoginTest@50f8360d]" name="openBrowser" is-config="true" duration-ms="2098" started-at="2018-09-01T13:07:52Z" finished-at="2018-09-01T13:07:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginTest1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dic.upload.test.LoginTest@50f8360d]" name="loginTest1" duration-ms="888" started-at="2018-09-01T13:07:54Z" data-provider="upload_login_data" finished-at="2018-09-01T13:07:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[river001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[river001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[退出]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[测试方法：loginTest1执行通过了]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.dic.upload.test.LoginTest@50f8360d]" name="closeBrowser" is-config="true" duration-ms="20" started-at="2018-09-01T13:07:55Z" finished-at="2018-09-01T13:07:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.dic.upload.test.LoginTest@50f8360d]" name="openBrowser" is-config="true" duration-ms="623" started-at="2018-09-01T13:07:55Z" finished-at="2018-09-01T13:07:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginTest1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dic.upload.test.LoginTest@50f8360d]" name="loginTest1" duration-ms="831" started-at="2018-09-01T13:07:55Z" data-provider="upload_login_data" finished-at="2018-09-01T13:07:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[river002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[river002]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[退出]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[测试方法：loginTest1执行通过了]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.dic.upload.test.LoginTest@50f8360d]" name="closeBrowser" is-config="true" duration-ms="16" started-at="2018-09-01T13:07:56Z" finished-at="2018-09-01T13:07:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.dic.upload.test.LoginTest -->
+      <class name="com.dic.upload.testutils.AfterUpload">
+        <test-method status="PASS" signature="stopService()[pri:0, instance:com.dic.upload.testutils.AfterUpload@12843fce]" name="stopService" is-config="true" duration-ms="539" started-at="2018-09-01T13:07:56Z" finished-at="2018-09-01T13:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopService -->
+      </class> <!-- com.dic.upload.testutils.AfterUpload -->
+    </test> <!-- round1 -->
+  </suite> <!-- demo_suite1 -->
+</testng-results>
